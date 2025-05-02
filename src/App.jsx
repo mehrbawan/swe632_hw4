@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { BrowserRouter as Router, Routes, Route, Link, Outlet } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route, Link, Outlet } from 'react-router-dom'
 import LandingPage from './components/LandingPage'
 import HomeworkForm from './components/HomeworkForm'
 import SubmissionForm from './components/SubmissionForm'
