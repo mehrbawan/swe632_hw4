@@ -1,12 +1,15 @@
 import { useState, useEffect } from 'react'
-import { HashRouter as Router, Routes, Route, Link, Outlet } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import LandingPage from './components/LandingPage'
 import HomeworkForm from './components/HomeworkForm'
 import SubmissionForm from './components/SubmissionForm'
 import Grading from './components/Grading'
 import Analysis from './components/Analysis'
 import ViewSubmissions from './components/ViewSubmissions'
+import TeacherLayout from './components/TeacherLayout'
+import StudentLayout from './components/StudentLayout'
 import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   const [homeworks, setHomeworks] = useState(() => {
@@ -46,7 +49,7 @@ function App() {
               <Grading
                 homeworks={homeworks}
                 submissions={submissions}
-                setSubmissions={setSubmissions} // Pass setSubmissions to allow grade updates
+                setSubmissions={setSubmissions}
               />
             }
           />
@@ -74,31 +77,6 @@ function App() {
         </Route>
       </Routes>
     </Router>
-  )
-}
-
-function TeacherLayout() {
-  return (
-    <div>
-      <nav>
-        <Link to="/teacher/homework">Define Homework</Link> | 
-        <Link to="/teacher/grade">Grade Submissions</Link> | 
-        <Link to="/teacher/analysis">Analysis</Link>
-      </nav>
-      <Outlet />
-    </div>
-  )
-}
-
-function StudentLayout() {
-  return (
-    <div>
-      <nav>
-        <Link to="/student/submit">Submit Homework</Link> | 
-        <Link to="/student/view">View Submissions</Link>
-      </nav>
-      <Outlet />
-    </div>
   )
 }
 

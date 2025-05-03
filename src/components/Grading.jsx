@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import '@fortawesome/fontawesome-free/css/all.min.css'
 
 function Grading({ homeworks, submissions, setSubmissions }) {
   const [selectedHomeworkId, setSelectedHomeworkId] = useState('')
@@ -15,12 +16,30 @@ function Grading({ homeworks, submissions, setSubmissions }) {
     )
   }
 
+  const handleAutoGrade = () => {
+    setSubmissions((prev) =>
+      prev.map((submission) =>
+        submission.homeworkId === selectedHomeworkId
+          ? { ...submission, grade: Math.floor(Math.random() * 51) + 50 } // Random grade between 50-100
+          : submission
+      )
+    )
+  }
+
   return (
-    <div>
-      <h2>Grading Submissions</h2>
-      <label>
-        Select Homework:
-        <select
+    <div className="container mt-4">
+      <h2 className="text-center mb-4">
+        <i className="fa-solid fa-clipboard-check me-2"></i> Grading Submissions
+      </h2>
+
+      <label htmlFor="homeworkSelect" className="form-label">
+          <i className="fa-solid fa-book me-2"></i> Select Homework:
+        </label>
+
+      <div className="row mb-4">
+        <div className="col">        <select
+          id="homeworkSelect"
+          className="form-select"
           value={selectedHomeworkId}
           onChange={(e) => setSelectedHomeworkId(e.target.value)}
         >
@@ -30,24 +49,45 @@ function Grading({ homeworks, submissions, setSubmissions }) {
               {hw.title} ({hw.subject})
             </option>
           ))}
-        </select>
-      </label>
-      <ul>
+        </select></div>
+        <div className="col">      <div className="d-flex justify-content-end mb-4">
+        <button className="btn btn-success" onClick={handleAutoGrade}>
+          <i className="fa-solid fa-wand-magic-sparkles me-2"></i> Autograde with AI
+        </button>
+      </div></div>
+      </div>
+
+      <div className="row">
         {filteredSubmissions.map((submission) => (
-          <li key={submission.id}>
-            <strong>{submission.studentName}:</strong> {submission.submission}
-            <br />
-            <label>
-              Grade:
-              <input
-                type="text"
-                value={submission.grade || ''}
-                onChange={(e) => handleGradeChange(submission.id, e.target.value)}
-              />
-            </label>
-          </li>
+          <div className="col-md-6 mb-4" key={submission.id}>
+            <div className="card shadow-sm">
+              <div className="card-body">
+                <h5 className="card-title">
+                  <i className="fa-solid fa-user me-2"></i> {submission.studentName}
+                </h5>
+                <p className="card-text">
+                  <strong>Submission:</strong> {submission.submission}
+                </p>
+                <div className="mb-3">
+                  <label htmlFor={`grade-${submission.id}`} className="form-label">
+                    <i className="fa-solid fa-star me-2"></i> Grade:
+                  </label>
+                  <input
+                    type="text"
+                    id={`grade-${submission.id}`}
+                    className="form-control"
+                    value={submission.grade || ''}
+                    onChange={(e) => handleGradeChange(submission.id, e.target.value)}
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
         ))}
-      </ul>
+      </div>
+      {filteredSubmissions.length === 0 && selectedHomeworkId && (
+        <p className="text-center text-muted">No submissions found for this homework.</p>
+      )}
     </div>
   )
 }
