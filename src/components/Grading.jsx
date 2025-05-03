@@ -1,30 +1,35 @@
-import { useState } from 'react'
-import '@fortawesome/fontawesome-free/css/all.min.css'
+import { useState } from 'react';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function Grading({ homeworks, submissions, setSubmissions }) {
-  const [selectedHomeworkId, setSelectedHomeworkId] = useState('')
+  const [selectedHomeworkId, setSelectedHomeworkId] = useState('');
+  const [gradingCriteria, setGradingCriteria] = useState(''); // State for grading criteria
 
   const filteredSubmissions = submissions.filter(
     (submission) => submission.homeworkId === selectedHomeworkId
-  )
+  );
 
   const handleGradeChange = (id, grade) => {
     setSubmissions((prev) =>
       prev.map((submission) =>
         submission.id === id ? { ...submission, grade } : submission
       )
-    )
-  }
+    );
+  };
 
   const handleAutoGrade = () => {
+    if (!gradingCriteria) {
+      alert('Please enter grading criteria before autograding.');
+      return;
+    }
     setSubmissions((prev) =>
       prev.map((submission) =>
         submission.homeworkId === selectedHomeworkId
-          ? { ...submission, grade: Math.floor(Math.random() * 51) + 50 } // Random grade between 50-100
+          ? { ...submission, grade: Math.floor(Math.random() * 51) + 50 }
           : submission
       )
-    )
-  }
+    );
+  };
 
   return (
     <div className="container mt-4">
@@ -33,28 +38,48 @@ function Grading({ homeworks, submissions, setSubmissions }) {
       </h2>
 
       <label htmlFor="homeworkSelect" className="form-label">
-          <i className="fa-solid fa-book me-2"></i> Select Homework:
-        </label>
+        <i className="fa-solid fa-book me-2"></i> Select Homework:
+      </label>
 
       <div className="row mb-4">
-        <div className="col">        <select
-          id="homeworkSelect"
-          className="form-select"
-          value={selectedHomeworkId}
-          onChange={(e) => setSelectedHomeworkId(e.target.value)}
-        >
-          <option value="">-- Select Homework --</option>
-          {homeworks.map((hw) => (
-            <option key={hw.id} value={hw.id}>
-              {hw.title} ({hw.subject})
-            </option>
-          ))}
-        </select></div>
-        <div className="col">      <div className="d-flex justify-content-end mb-4">
-        <button className="btn btn-success" onClick={handleAutoGrade}>
-          <i className="fa-solid fa-wand-magic-sparkles me-2"></i> Autograde with AI
-        </button>
-      </div></div>
+        <div className="col">
+          <select
+            id="homeworkSelect"
+            className="form-select"
+            value={selectedHomeworkId}
+            onChange={(e) => setSelectedHomeworkId(e.target.value)}
+          >
+            <option value="">-- Select Homework --</option>
+            {homeworks.map((hw) => (
+              <option key={hw.id} value={hw.id}>
+                {hw.title} ({hw.subject})
+              </option>
+            ))}
+          </select>
+        </div>
+        <div className="col">
+          <div className="d-flex justify-content-end mb-4">
+            <button className="btn btn-success" onClick={handleAutoGrade}>
+              <i className="fa-solid fa-wand-magic-sparkles me-2"></i> Autograde with AI
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div className="row mb-4">
+        <div className="col">
+          <label htmlFor="gradingCriteria" className="form-label">
+            <i className="fa-solid fa-pen me-2"></i> AI Grading Criteria:
+          </label>
+          <input
+            type="text"
+            id="gradingCriteria"
+            className="form-control"
+            placeholder="Enter grading criteria here..."
+            value={gradingCriteria}
+            onChange={(e) => setGradingCriteria(e.target.value)}
+          />
+        </div>
       </div>
 
       <div className="row">
@@ -89,7 +114,7 @@ function Grading({ homeworks, submissions, setSubmissions }) {
         <p className="text-center text-muted">No submissions found for this homework.</p>
       )}
     </div>
-  )
+  );
 }
 
-export default Grading
+export default Grading;

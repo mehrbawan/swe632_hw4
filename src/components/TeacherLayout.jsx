@@ -1,16 +1,16 @@
-import { Link, Outlet } from 'react-router-dom'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import '@fortawesome/fontawesome-free/css/all.min.css'
+import { Link, Outlet } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function TeacherLayout() {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+            <nav className="navbar navbar-expand-lg navbar-light bg-primary">
                 <div className="container-fluid">
                     {/* Logo with Icon */}
                     <Link className="navbar-brand d-flex align-items-center text-white" to="/teacher">
-                    <i class="fa-solid fa-chalkboard-user me-2"></i> 
-                         Teacher Portal
+                        <i className="fa-solid fa-chalkboard-user me-2"></i>
+                        Teacher Portal
                     </Link>
                     <button
                         className="navbar-toggler"
@@ -24,26 +24,29 @@ function TeacherLayout() {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNav">
-                        <ul className="navbar-nav">
+                        <ul className="navbar-nav me-auto">
                             <li className="nav-item">
                                 <Link className="nav-link text-white" to="/teacher/homework">
-                                    <i className="fa-solid fa-book me-2  text-white"></i> 
+                                    <i className="fa-solid fa-book me-2 text-white"></i>
                                     Define Homework
                                 </Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link text-white" to="/teacher/grade">
-                                    <i className="fa-solid fa-clipboard-check me-2 text-white"></i> 
+                                    <i className="fa-solid fa-clipboard-check me-2 text-white"></i>
                                     Grade Submissions
                                 </Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link text-white" to="/teacher/analysis">
-                                    <i className="fa-solid fa-chart-line me-2 text-white"></i> 
+                                    <i className="fa-solid fa-chart-line me-2 text-white"></i>
                                     Analysis
                                 </Link>
                             </li>
                         </ul>
+                        <Link className="nav-link text-white d-flex align-items-center" to="/">
+                            <i className="fa-solid fa-right-from-bracket me-2"></i> Logout
+                        </Link>
                     </div>
                 </div>
             </nav>
@@ -58,35 +61,37 @@ function TeacherLayout() {
                                     style={{ height: '70px' }}
                                 />
                             </div>
-                            <div className="col-6"><h2>Professor XYZ</h2>
+                            <div className="col-6">
+                                <h2>Professor XYZ</h2>
                                 <p>ID: 321847</p>
                             </div>
                         </div>
                     </div>
-                    <div className="col"><h2><i class="fa-solid fa-school me-3"></i>Welcome to the Teacher Portal!</h2>
+                    <div className="col">
+                        <h2>
+                            <i className="fa-solid fa-school me-3"></i>Welcome to the Teacher Portal!
+                        </h2>
                         <p>Manage homework assignments, grade submissions, and analyze student performance.</p>
                     </div>
                 </div>
-                <hr class="solid"></hr>
+                <hr className="solid"></hr>
                 <Outlet />
-
-
                 <div className="row text-center mt-4">
                     <div className="col">
-                        <div class="card">
-                            <div class="card-header bg-primary text-white">Recent Activity</div>
-                            <div class="card-body">
-                                <ul class="list-group">
-                                    <li class="list-group-item">
+                        <div className="card">
+                            <div className="card-header bg-success text-white">Recent Activity</div>
+                            <div className="card-body">
+                                <ul className="list-group">
+                                    <li className="list-group-item">
                                         <strong>New Assignment Created:</strong> History Essay on February 7, 2025.
                                     </li>
-                                    <li class="list-group-item">
+                                    <li className="list-group-item">
                                         <strong>New Submission:</strong> John Doe for Math Assignment 1 on February 5, 2025.
                                     </li>
-                                    <li class="list-group-item">
+                                    <li className="list-group-item">
                                         <strong>New Submission:</strong> Jane Smith for Science Project on February 6, 2025.
                                     </li>
-                                    <li class="list-group-item">
+                                    <li className="list-group-item">
                                         <a href="#">More Activity &gt;&gt;</a>
                                     </li>
                                 </ul>
@@ -94,20 +99,20 @@ function TeacherLayout() {
                         </div>
                     </div>
                     <div className="col">
-                        <div class="card">
-                            <div class="card-header bg-primary text-white">Reminders</div>
-                            <div class="card-body">
-                                <ul class="list-group">
-                                    <li class="list-group-item">
+                        <div className="card">
+                            <div className="card-header bg-success text-white">Reminders</div>
+                            <div className="card-body">
+                                <ul className="list-group">
+                                    <li className="list-group-item">
                                         <strong>Upcoming Deadline:</strong> Math Assignment 1 due on February 10, 2025.
                                     </li>
-                                    <li class="list-group-item">
+                                    <li className="list-group-item">
                                         <strong>Upcoming Deadline:</strong> History Assignment 1 due on February 22, 2025.
                                     </li>
-                                    <li class="list-group-item">
+                                    <li className="list-group-item">
                                         <strong>System Reminder:</strong> Semester grades due on March 15, 2025.
                                     </li>
-                                    <li class="list-group-item">
+                                    <li className="list-group-item">
                                         <a href="#">More Reminders &gt;&gt;</a>
                                     </li>
                                 </ul>
@@ -119,15 +124,15 @@ function TeacherLayout() {
                     <div className="col-md-12">
                         <h3>Calendar</h3>
                         <table className="table table-bordered">
-                            <thead className="bg-primary text-white">
+                            <thead className="bg-success text-white">
                                 <tr>
-                                    <th className="bg-primary text-white">Sun</th>
-                                    <th className="bg-primary text-white">Mon</th>
-                                    <th className="bg-primary text-white">Tue</th>
-                                    <th className="bg-primary text-white">Wed</th>
-                                    <th className="bg-primary text-white">Thu</th>
-                                    <th className="bg-primary text-white">Fri</th>
-                                    <th className="bg-primary text-white">Sat</th>
+                                    <th className="bg-success text-white">Sun</th>
+                                    <th className="bg-success text-white">Mon</th>
+                                    <th className="bg-success text-white">Tue</th>
+                                    <th className="bg-success text-white">Wed</th>
+                                    <th className="bg-success text-white">Thu</th>
+                                    <th className="bg-success text-white">Fri</th>
+                                    <th className="bg-success text-white">Sat</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -180,10 +185,9 @@ function TeacherLayout() {
                         </table>
                     </div>
                 </div>
-
             </div>
         </div>
-    )
+    );
 }
 
-export default TeacherLayout
+export default TeacherLayout;
