@@ -1,0 +1,2510 @@
+{
+  "id": "618c9028-ce33-455c-af52-99bb17983227",
+  "version": "3.0",
+  "name": "New Project",
+  "url": "http://www.google.com",
+  "urls": [
+    "http://www.google.com"
+  ],
+  "plugins": [],
+  "suites": [
+    {
+      "id": "bdfaca1e-48b8-4b80-862b-c92b9112f7c1",
+      "name": "New Suite",
+      "parallel": false,
+      "persistSession": false,
+      "tests": [
+        "0995b870-ff13-49be-98b8-0681db438225"
+      ],
+      "timeout": 30000
+    }
+  ],
+  "tests": [
+    {
+      "id": "0995b870-ff13-49be-98b8-0681db438225",
+      "name": "define_homework_test",
+      "commands": [
+        {
+          "id": "44603dee-7573-4c86-84e8-a83736ce309e",
+          "command": "open",
+          "target": "https://mehrbawan.github.io/swe632_hw4/#/teacher/homework",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "id=title",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "bab048e0-51f1-4176-a5c4-b0bc2b58775c",
+          "targets": [
+            [
+              "id=title",
+              "id"
+            ],
+            [
+              "css=#title",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='title'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=title",
+          "value": "a",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "448caa56-cdad-4bd8-9284-1cd344976ac3",
+          "targets": [
+            [
+              "id=title",
+              "id"
+            ],
+            [
+              "css=#title",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='title'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=subject",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "19746010-9944-464d-9ae9-e5dbaea67e1f",
+          "targets": [
+            [
+              "id=subject",
+              "id"
+            ],
+            [
+              "css=#subject",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='subject'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=subject",
+          "value": "b",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "77dc5548-807d-46f2-906c-8d6049ca29a8",
+          "targets": [
+            [
+              "id=subject",
+              "id"
+            ],
+            [
+              "css=#subject",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='subject'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=criteria",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "523148ac-dc42-44ca-9b22-e682e277d109",
+          "targets": [
+            [
+              "id=criteria",
+              "id"
+            ],
+            [
+              "css=#criteria",
+              "css:finder"
+            ],
+            [
+              "xpath=(//textarea[@id='criteria'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div[3]/textarea)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=criteria",
+          "value": "c",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "0fedef3e-6f7c-43a2-8a47-740be79475fb",
+          "targets": [
+            [
+              "id=criteria",
+              "id"
+            ],
+            [
+              "css=#criteria",
+              "css:finder"
+            ],
+            [
+              "xpath=(//textarea[@id='criteria'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div[3]/textarea)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.btn",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "f1bad999-bf4c-4739-a3d3-4679e4993744",
+          "targets": [
+            [
+              "css=.btn",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@type='submit' and text()=' Save Homework'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,' Save Homework')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "linkText=Grade Submissions",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "35d730ee-81e6-4fcc-863a-86d8f63dc677",
+          "targets": [
+            [
+              "linkText=Grade Submissions",
+              "linkText"
+            ],
+            [
+              "css=.nav-item:nth-child(2) > .nav-link",
+              "css:finder"
+            ],
+            [
+              "xpath=(//a[contains(text(),'Grade Submissions')])[1]",
+              "xpath:link"
+            ],
+            [
+              "xpath=(//div[@id='navbarNav']/ul/li[2]/a)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=(//a[contains(@href, '#/teacher/grade')])[1]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//a[contains(.,'Grade Submissions')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=homeworkSelect",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "6d9cbe17-882b-45c9-a242-c0c90c49936c",
+          "targets": [
+            [
+              "id=homeworkSelect",
+              "id"
+            ],
+            [
+              "css=#homeworkSelect",
+              "css:finder"
+            ],
+            [
+              "xpath=(//select[@id='homeworkSelect'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/div/div/select)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "select",
+          "target": "id=homeworkSelect",
+          "value": "label=a (b)",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "3f67fb45-e09c-4e36-a9d2-33ebf1936dd3",
+          "targets": [
+            [
+              "id=homeworkSelect",
+              "id"
+            ],
+            [
+              "css=#homeworkSelect",
+              "css:finder"
+            ],
+            [
+              "xpath=(//select[@id='homeworkSelect'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/div/div/select)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "70c966b1-da84-4503-a5d8-a8b2db987b86",
+      "name": "analysis_empty_test",
+      "commands": [
+        {
+          "id": "1d664d97-1c1e-4f3e-bb7b-7e48ba004788",
+          "command": "open",
+          "target": "https://mehrbawan.github.io/swe632_hw4/#/teacher/",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "linkText=Analysis",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "9032b477-d03a-4b11-b182-3edf5a0a916d",
+          "targets": [
+            [
+              "linkText=Analysis",
+              "linkText"
+            ],
+            [
+              "css=.nav-item:nth-child(3) > .nav-link",
+              "css:finder"
+            ],
+            [
+              "xpath=(//a[contains(text(),'Analysis')])[1]",
+              "xpath:link"
+            ],
+            [
+              "xpath=(//div[@id='navbarNav']/ul/li[3]/a)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=(//a[contains(@href, '#/teacher/analysis')])[1]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//a[contains(.,'Analysis')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "assertText",
+          "target": "css=p:nth-child(3)",
+          "value": "No submissions to analyze.",
+          "id": "7ba1f31d-e849-4af3-94b4-78968bae5e9a",
+          "fallbackTargets": [
+            [
+              "css=p:nth-child(3)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/p)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//p[contains(.,'No submissions to analyze.')]",
+              "xpath:innerText"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f634a81f-2f77-4b3b-9d52-aead007d7ce6",
+      "name": "analysis_present_test",
+      "commands": [
+        {
+          "command": "open",
+          "target": "https://mehrbawan.github.io/swe632_hw4/#/teacher/",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "b9621fef-bd6b-4011-8e81-1832d272ee25",
+          "targets": [
+            [
+              "linkText=Define Homework",
+              "linkText"
+            ],
+            [
+              "css=.nav-item:nth-child(1) > .nav-link",
+              "css:finder"
+            ],
+            [
+              "xpath=(//a[contains(text(),'Define Homework')])[1]",
+              "xpath:link"
+            ],
+            [
+              "xpath=(//div[@id='navbarNav']/ul/li/a)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=(//a[contains(@href, '#/teacher/homework')])[1]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//a[contains(.,'Define Homework')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "linkText=Define Homework",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "4919681e-3f34-462f-be86-60fe938911a5",
+          "targets": [
+            [
+              "linkText=Define Homework",
+              "linkText"
+            ],
+            [
+              "css=.nav-item:nth-child(1) > .nav-link",
+              "css:finder"
+            ],
+            [
+              "xpath=(//a[contains(text(),'Define Homework')])[1]",
+              "xpath:link"
+            ],
+            [
+              "xpath=(//div[@id='navbarNav']/ul/li/a)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=(//a[contains(@href, '#/teacher/homework')])[1]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//a[contains(.,'Define Homework')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=title",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "709207e8-651e-4dab-82d5-03011815f261",
+          "targets": [
+            [
+              "id=title",
+              "id"
+            ],
+            [
+              "css=#title",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='title'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=title",
+          "value": "a",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "dd9ecce6-5cd3-4623-8a92-6d6ecc72ba0f",
+          "targets": [
+            [
+              "id=title",
+              "id"
+            ],
+            [
+              "css=#title",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='title'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=subject",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "8129e5e0-8208-4092-882d-04bf2e7ad534",
+          "targets": [
+            [
+              "id=subject",
+              "id"
+            ],
+            [
+              "css=#subject",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='subject'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=subject",
+          "value": "b",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "8c1f3ef7-d810-4132-8ca1-5e9309507d85",
+          "targets": [
+            [
+              "id=subject",
+              "id"
+            ],
+            [
+              "css=#subject",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='subject'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=criteria",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "d37d66fa-ad43-474f-bdae-84fd593db3a1",
+          "targets": [
+            [
+              "id=criteria",
+              "id"
+            ],
+            [
+              "css=#criteria",
+              "css:finder"
+            ],
+            [
+              "xpath=(//textarea[@id='criteria'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div[3]/textarea)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=criteria",
+          "value": "c",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "4b2dc577-65b0-420e-bb47-61faf7bc3a13",
+          "targets": [
+            [
+              "id=criteria",
+              "id"
+            ],
+            [
+              "css=#criteria",
+              "css:finder"
+            ],
+            [
+              "xpath=(//textarea[@id='criteria'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div[3]/textarea)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.btn",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "6ef1b721-4979-48f8-8c8f-91c284ab3e2b",
+          "targets": [
+            [
+              "css=.btn",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@type='submit' and text()=' Save Homework'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,' Save Homework')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "linkText=Logout",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "78bf3d2d-d667-4d3a-873d-3ba0d083e268",
+          "targets": [
+            [
+              "linkText=Logout",
+              "linkText"
+            ],
+            [
+              "css=.nav-link:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//a[contains(text(),'Logout')])[1]",
+              "xpath:link"
+            ],
+            [
+              "xpath=(//div[@id='navbarNav']/a)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=(//a[contains(@href, '#/')])[5]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//a[contains(.,'Logout')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "linkText=Student Login",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "bd15818e-1bda-441c-81a1-548eaa0697bb",
+          "targets": [
+            [
+              "linkText=Student Login",
+              "linkText"
+            ],
+            [
+              "css=.btn-success",
+              "css:finder"
+            ],
+            [
+              "xpath=(//a[contains(text(),'Student Login')])[1]",
+              "xpath:link"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div[2]/div[2]/div/div/a)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=(//a[contains(@href, '#/student')])[1]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//a[contains(.,'Student Login')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "linkText=Submit Homework",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "607d3ae4-153a-41d6-bba0-f67368f04c93",
+          "targets": [
+            [
+              "linkText=Submit Homework",
+              "linkText"
+            ],
+            [
+              "css=.nav-item:nth-child(1) > .nav-link",
+              "css:finder"
+            ],
+            [
+              "xpath=(//a[contains(text(),'Submit Homework')])[1]",
+              "xpath:link"
+            ],
+            [
+              "xpath=(//div[@id='navbarNav']/ul/li/a)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=(//a[contains(@href, '#/student/submit')])[1]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//a[contains(.,'Submit Homework')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=homeworkSelect",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "23bac8e4-0996-4eb3-8493-9210f063699a",
+          "targets": [
+            [
+              "id=homeworkSelect",
+              "id"
+            ],
+            [
+              "css=#homeworkSelect",
+              "css:finder"
+            ],
+            [
+              "xpath=(//select[@id='homeworkSelect'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div/select)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "select",
+          "target": "id=homeworkSelect",
+          "value": "label=a (b)",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "ef445a20-38a2-4d17-9a20-4d261a6be0c0",
+          "targets": [
+            [
+              "id=homeworkSelect",
+              "id"
+            ],
+            [
+              "css=#homeworkSelect",
+              "css:finder"
+            ],
+            [
+              "xpath=(//select[@id='homeworkSelect'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div/select)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=submission",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "24c8c848-8d0f-4753-8b57-27c07d6b0f10",
+          "targets": [
+            [
+              "id=submission",
+              "id"
+            ],
+            [
+              "css=#submission",
+              "css:finder"
+            ],
+            [
+              "xpath=(//textarea[@id='submission'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div[2]/textarea)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=submission",
+          "value": "c",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "1ef55c7e-d47d-49fb-a70f-d55be39989c2",
+          "targets": [
+            [
+              "id=submission",
+              "id"
+            ],
+            [
+              "css=#submission",
+              "css:finder"
+            ],
+            [
+              "xpath=(//textarea[@id='submission'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div[2]/textarea)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.btn",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "58f4c494-3342-4a66-b99a-9bf0e8ca1220",
+          "targets": [
+            [
+              "css=.btn",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@type='submit' and text()=' Submit'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,' Submit')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "linkText=Logout",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "817572a4-9d71-44c2-986d-4e833ff7b99f",
+          "targets": [
+            [
+              "linkText=Logout",
+              "linkText"
+            ],
+            [
+              "css=.d-flex",
+              "css:finder"
+            ],
+            [
+              "xpath=(//a[contains(text(),'Logout')])[1]",
+              "xpath:link"
+            ],
+            [
+              "xpath=(//div[@id='navbarNav']/a)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=(//a[contains(@href, '#/')])[4]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//a[contains(.,'Logout')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "linkText=Teacher Login",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "d35d057d-ef02-4b77-8fb6-e26301ffa0d3",
+          "targets": [
+            [
+              "linkText=Teacher Login",
+              "linkText"
+            ],
+            [
+              "css=[data-discover]",
+              "css:data-attr"
+            ],
+            [
+              "css=.btn-primary",
+              "css:finder"
+            ],
+            [
+              "xpath=(//a[contains(text(),'Teacher Login')])[1]",
+              "xpath:link"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div[2]/div/div/div/a)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=(//a[contains(@href, '#/teacher')])[1]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//a[contains(.,'Teacher Login')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "linkText=Analysis",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "6bb281d0-7d62-463c-88a8-ffc195c97dab",
+          "targets": [
+            [
+              "linkText=Analysis",
+              "linkText"
+            ],
+            [
+              "css=.nav-item:nth-child(3) > .nav-link",
+              "css:finder"
+            ],
+            [
+              "xpath=(//a[contains(text(),'Analysis')])[1]",
+              "xpath:link"
+            ],
+            [
+              "xpath=(//div[@id='navbarNav']/ul/li[3]/a)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=(//a[contains(@href, '#/teacher/analysis')])[1]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//a[contains(.,'Analysis')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "assertElementPresent",
+          "target": "css=.btn",
+          "value": "",
+          "id": "f9bae516-ee03-443d-8b23-cb6d833188fa",
+          "fallbackTargets": [
+            [
+              "css=.btn",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/div/div/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,' Generate AI Rundown')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.btn",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "dfc84b18-6b3a-450f-98c5-66abe1775012",
+          "targets": [
+            [
+              "css=.btn",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/div/div/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,' Generate AI Rundown')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "assertElementPresent",
+          "target": "css=.col > .shadow-sm > .card-body",
+          "value": "",
+          "id": "96127054-183a-4429-8587-c13dbd6d6041",
+          "fallbackTargets": [
+            [
+              "css=.col > .shadow-sm > .card-body",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/div[2]/div/div/div)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3cfddf6a-3f7d-440c-8e89-5169026dc94a",
+      "name": "submit_homework_test",
+      "commands": [
+        {
+          "id": "a4b11e3a-ef4b-4a68-a45d-988ea563ef74",
+          "command": "open",
+          "target": "https://mehrbawan.github.io/swe632_hw4/#teacher",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "linkText=Define Homework",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "4584ef94-098e-47c7-ba46-d8e028e980fb",
+          "targets": [
+            [
+              "linkText=Define Homework",
+              "linkText"
+            ],
+            [
+              "css=.nav-item:nth-child(1) > .nav-link",
+              "css:finder"
+            ],
+            [
+              "xpath=(//a[contains(text(),'Define Homework')])[1]",
+              "xpath:link"
+            ],
+            [
+              "xpath=(//div[@id='navbarNav']/ul/li/a)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=(//a[contains(@href, '#/teacher/homework')])[1]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//a[contains(.,'Define Homework')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=title",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "753fee92-492f-4e8b-aa7e-4dc5357e0cc2",
+          "targets": [
+            [
+              "id=title",
+              "id"
+            ],
+            [
+              "css=#title",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='title'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=title",
+          "value": "a",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "5d8639a7-e346-4019-b2d4-278dda37652c",
+          "targets": [
+            [
+              "id=title",
+              "id"
+            ],
+            [
+              "css=#title",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='title'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=subject",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "f2d22307-4ea6-4500-bfde-6c125b41a8aa",
+          "targets": [
+            [
+              "id=subject",
+              "id"
+            ],
+            [
+              "css=#subject",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='subject'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=subject",
+          "value": "b",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "8acafd92-8e1f-4e24-bf03-e6a62e52f960",
+          "targets": [
+            [
+              "id=subject",
+              "id"
+            ],
+            [
+              "css=#subject",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='subject'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=criteria",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "592c93fa-d0fd-4f34-b067-e1222dca0d3f",
+          "targets": [
+            [
+              "id=criteria",
+              "id"
+            ],
+            [
+              "css=#criteria",
+              "css:finder"
+            ],
+            [
+              "xpath=(//textarea[@id='criteria'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div[3]/textarea)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=criteria",
+          "value": "c",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "52ff9530-2004-4ce0-a019-abbacaa0f068",
+          "targets": [
+            [
+              "id=criteria",
+              "id"
+            ],
+            [
+              "css=#criteria",
+              "css:finder"
+            ],
+            [
+              "xpath=(//textarea[@id='criteria'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div[3]/textarea)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.btn",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "5e159eb2-88f6-4d77-befa-909df54bfc67",
+          "targets": [
+            [
+              "css=.btn",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@type='submit' and text()=' Save Homework'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,' Save Homework')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.fa-right-from-bracket",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "e1e8e066-e204-4383-9865-3a4e75d0cacd",
+          "targets": [
+            [
+              "css=.fa-right-from-bracket",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='navbarNav']/a/i)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "linkText=Student Login",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "f55590e3-8cc7-4d2c-a944-fa8381ac6fea",
+          "targets": [
+            [
+              "linkText=Student Login",
+              "linkText"
+            ],
+            [
+              "css=.btn-success",
+              "css:finder"
+            ],
+            [
+              "xpath=(//a[contains(text(),'Student Login')])[1]",
+              "xpath:link"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div[2]/div[2]/div/div/a)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=(//a[contains(@href, '#/student')])[1]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//a[contains(.,'Student Login')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "linkText=Submit Homework",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "1ec8adb5-23ed-42f1-a687-5918e7c00d68",
+          "targets": [
+            [
+              "linkText=Submit Homework",
+              "linkText"
+            ],
+            [
+              "css=.nav-item:nth-child(1) > .nav-link",
+              "css:finder"
+            ],
+            [
+              "xpath=(//a[contains(text(),'Submit Homework')])[1]",
+              "xpath:link"
+            ],
+            [
+              "xpath=(//div[@id='navbarNav']/ul/li/a)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=(//a[contains(@href, '#/student/submit')])[1]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//a[contains(.,'Submit Homework')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=homeworkSelect",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "838d8fef-7561-45f9-8e11-5bd9693841da",
+          "targets": [
+            [
+              "id=homeworkSelect",
+              "id"
+            ],
+            [
+              "css=#homeworkSelect",
+              "css:finder"
+            ],
+            [
+              "xpath=(//select[@id='homeworkSelect'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div/select)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "select",
+          "target": "id=homeworkSelect",
+          "value": "label=a (b)",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "6b3fb08d-df58-4907-b208-9685ef504f16",
+          "targets": [
+            [
+              "id=homeworkSelect",
+              "id"
+            ],
+            [
+              "css=#homeworkSelect",
+              "css:finder"
+            ],
+            [
+              "xpath=(//select[@id='homeworkSelect'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div/select)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=submission",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "5dc53699-a76d-4f66-a441-26371b96c23c",
+          "targets": [
+            [
+              "id=submission",
+              "id"
+            ],
+            [
+              "css=#submission",
+              "css:finder"
+            ],
+            [
+              "xpath=(//textarea[@id='submission'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div[2]/textarea)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=submission",
+          "value": "c",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "0797a759-491e-4f68-8e58-c19a0cd75571",
+          "targets": [
+            [
+              "id=submission",
+              "id"
+            ],
+            [
+              "css=#submission",
+              "css:finder"
+            ],
+            [
+              "xpath=(//textarea[@id='submission'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div[2]/textarea)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.btn",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "bd92576a-147d-4881-a37c-1bec8a454947",
+          "targets": [
+            [
+              "css=.btn",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@type='submit' and text()=' Submit'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,' Submit')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "linkText=View Submissions",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "0f4825ad-1265-4c28-85bc-68590e544dc9",
+          "targets": [
+            [
+              "linkText=View Submissions",
+              "linkText"
+            ],
+            [
+              "css=.nav-item:nth-child(2) > .nav-link",
+              "css:finder"
+            ],
+            [
+              "xpath=(//a[contains(text(),'View Submissions')])[1]",
+              "xpath:link"
+            ],
+            [
+              "xpath=(//div[@id='navbarNav']/ul/li[2]/a)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=(//a[contains(@href, '#/student/view')])[1]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//a[contains(.,'View Submissions')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=homeworkSelect",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "09e554cd-311b-457b-b911-de11e367f764",
+          "targets": [
+            [
+              "id=homeworkSelect",
+              "id"
+            ],
+            [
+              "css=#homeworkSelect",
+              "css:finder"
+            ],
+            [
+              "xpath=(//select[@id='homeworkSelect'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/div/select)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "select",
+          "target": "id=homeworkSelect",
+          "value": "label=a (b)",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "dfed9648-c691-4240-a05c-070e62ef192b",
+          "targets": [
+            [
+              "id=homeworkSelect",
+              "id"
+            ],
+            [
+              "css=#homeworkSelect",
+              "css:finder"
+            ],
+            [
+              "xpath=(//select[@id='homeworkSelect'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/div/select)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "assertElementPresent",
+          "target": "css=.card-body:nth-child(1)",
+          "value": "",
+          "id": "44d32718-414e-473c-9939-249a314e1e37",
+          "fallbackTargets": [
+            [
+              "css=.card-body:nth-child(1)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/div[2]/div/div/div)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0c56809f-0241-4ea2-b725-054c6a3f4ae5",
+      "name": "grading_test",
+      "commands": [
+        {
+          "id": "33d85fcd-e85f-4f45-80df-fbb642f2a9bb",
+          "command": "open",
+          "target": "https://mehrbawan.github.io/swe632_hw4/#/teacher/",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "linkText=Define Homework",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "93de4d5b-4524-454f-9068-833ad036c2ee",
+          "targets": [
+            [
+              "linkText=Define Homework",
+              "linkText"
+            ],
+            [
+              "css=.nav-item:nth-child(1) > .nav-link",
+              "css:finder"
+            ],
+            [
+              "xpath=(//a[contains(text(),'Define Homework')])[1]",
+              "xpath:link"
+            ],
+            [
+              "xpath=(//div[@id='navbarNav']/ul/li/a)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=(//a[contains(@href, '#/teacher/homework')])[1]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//a[contains(.,'Define Homework')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=title",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "ac7ac10d-6eac-4618-b121-6b11e704b2ac",
+          "targets": [
+            [
+              "id=title",
+              "id"
+            ],
+            [
+              "css=#title",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='title'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=title",
+          "value": "1",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "3b3c7430-d87e-486a-b36d-58ffb294fe4f",
+          "targets": [
+            [
+              "id=title",
+              "id"
+            ],
+            [
+              "css=#title",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='title'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=subject",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "f76bea9a-d62c-4a0f-ae51-efb2ea78e5d2",
+          "targets": [
+            [
+              "id=subject",
+              "id"
+            ],
+            [
+              "css=#subject",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='subject'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=subject",
+          "value": "2",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "b8860f30-a752-4311-81c6-0aaf86395783",
+          "targets": [
+            [
+              "id=subject",
+              "id"
+            ],
+            [
+              "css=#subject",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='subject'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=criteria",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "09fc3a45-cbea-4e45-87e1-0c2fc1be9c60",
+          "targets": [
+            [
+              "id=criteria",
+              "id"
+            ],
+            [
+              "css=#criteria",
+              "css:finder"
+            ],
+            [
+              "xpath=(//textarea[@id='criteria'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div[3]/textarea)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=criteria",
+          "value": "3",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "82aaa40c-ddfd-450c-a4a2-ff3107cdf440",
+          "targets": [
+            [
+              "id=criteria",
+              "id"
+            ],
+            [
+              "css=#criteria",
+              "css:finder"
+            ],
+            [
+              "xpath=(//textarea[@id='criteria'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div[3]/textarea)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.btn",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "5e167362-930c-4012-aaa7-33bacaa8720b",
+          "targets": [
+            [
+              "css=.btn",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@type='submit' and text()=' Save Homework'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,' Save Homework')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "linkText=Logout",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "c403ee47-9232-4d35-8e37-581fc51857df",
+          "targets": [
+            [
+              "linkText=Logout",
+              "linkText"
+            ],
+            [
+              "css=.nav-link:nth-child(2)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//a[contains(text(),'Logout')])[1]",
+              "xpath:link"
+            ],
+            [
+              "xpath=(//div[@id='navbarNav']/a)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=(//a[contains(@href, '#/')])[5]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//a[contains(.,'Logout')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "linkText=Student Login",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "8615a1ca-3b69-42cf-9943-0c033b2e0d5a",
+          "targets": [
+            [
+              "linkText=Student Login",
+              "linkText"
+            ],
+            [
+              "css=.btn-success",
+              "css:finder"
+            ],
+            [
+              "xpath=(//a[contains(text(),'Student Login')])[1]",
+              "xpath:link"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div[2]/div[2]/div/div/a)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=(//a[contains(@href, '#/student')])[1]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//a[contains(.,'Student Login')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "linkText=Submit Homework",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "61cb1cc0-1672-40fc-a1a6-9263f9c7e660",
+          "targets": [
+            [
+              "linkText=Submit Homework",
+              "linkText"
+            ],
+            [
+              "css=.nav-item:nth-child(1) > .nav-link",
+              "css:finder"
+            ],
+            [
+              "xpath=(//a[contains(text(),'Submit Homework')])[1]",
+              "xpath:link"
+            ],
+            [
+              "xpath=(//div[@id='navbarNav']/ul/li/a)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=(//a[contains(@href, '#/student/submit')])[1]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//a[contains(.,'Submit Homework')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=homeworkSelect",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "1f6020bb-9cea-4e1e-9c20-5a7d15f22353",
+          "targets": [
+            [
+              "id=homeworkSelect",
+              "id"
+            ],
+            [
+              "css=#homeworkSelect",
+              "css:finder"
+            ],
+            [
+              "xpath=(//select[@id='homeworkSelect'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div/select)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "select",
+          "target": "id=homeworkSelect",
+          "value": "label=1 (2)",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "c4502ce1-e477-48e2-8390-595efdffcb53",
+          "targets": [
+            [
+              "id=homeworkSelect",
+              "id"
+            ],
+            [
+              "css=#homeworkSelect",
+              "css:finder"
+            ],
+            [
+              "xpath=(//select[@id='homeworkSelect'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div/select)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=submission",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "60e07a40-680f-4ed8-99ac-5225a6d6679e",
+          "targets": [
+            [
+              "id=submission",
+              "id"
+            ],
+            [
+              "css=#submission",
+              "css:finder"
+            ],
+            [
+              "xpath=(//textarea[@id='submission'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div[2]/textarea)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=submission",
+          "value": "3",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "f45aa9ba-f839-4907-bc10-2d2a83b8f2c2",
+          "targets": [
+            [
+              "id=submission",
+              "id"
+            ],
+            [
+              "css=#submission",
+              "css:finder"
+            ],
+            [
+              "xpath=(//textarea[@id='submission'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div[2]/textarea)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.btn",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "fb97fc6c-0856-4773-8fc9-6b2840ba5365",
+          "targets": [
+            [
+              "css=.btn",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@type='submit' and text()=' Submit'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,' Submit')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=homeworkSelect",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "539214e5-d47c-4107-84ba-9e2ba938ca28",
+          "targets": [
+            [
+              "id=homeworkSelect",
+              "id"
+            ],
+            [
+              "css=#homeworkSelect",
+              "css:finder"
+            ],
+            [
+              "xpath=(//select[@id='homeworkSelect'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div/select)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "select",
+          "target": "id=homeworkSelect",
+          "value": "label=1 (2)",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "6f4a49df-2c2e-4407-a6ab-4418f829855b",
+          "targets": [
+            [
+              "id=homeworkSelect",
+              "id"
+            ],
+            [
+              "css=#homeworkSelect",
+              "css:finder"
+            ],
+            [
+              "xpath=(//select[@id='homeworkSelect'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div/select)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=submission",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "a92321a3-24d7-4b8e-b43e-ac34863a609f",
+          "targets": [
+            [
+              "id=submission",
+              "id"
+            ],
+            [
+              "css=#submission",
+              "css:finder"
+            ],
+            [
+              "xpath=(//textarea[@id='submission'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div[2]/textarea)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=submission",
+          "value": "4",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "f54cf27a-4f24-4228-b27e-ff64854d2af8",
+          "targets": [
+            [
+              "id=submission",
+              "id"
+            ],
+            [
+              "css=#submission",
+              "css:finder"
+            ],
+            [
+              "xpath=(//textarea[@id='submission'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/div[2]/textarea)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.btn",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "5a972dc3-2bb8-46b5-bbd7-9b2702b75864",
+          "targets": [
+            [
+              "css=.btn",
+              "css:finder"
+            ],
+            [
+              "xpath=(//button[@type='submit' and text()=' Submit'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/form/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,' Submit')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "linkText=Logout",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "ba048e59-ae60-4cf7-8786-2d70d60d582d",
+          "targets": [
+            [
+              "linkText=Logout",
+              "linkText"
+            ],
+            [
+              "css=.d-flex",
+              "css:finder"
+            ],
+            [
+              "xpath=(//a[contains(text(),'Logout')])[1]",
+              "xpath:link"
+            ],
+            [
+              "xpath=(//div[@id='navbarNav']/a)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=(//a[contains(@href, '#/')])[4]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//a[contains(.,'Logout')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "linkText=Teacher Login",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "735fedf2-320c-4d61-8bd5-b684250e9455",
+          "targets": [
+            [
+              "linkText=Teacher Login",
+              "linkText"
+            ],
+            [
+              "css=[data-discover]",
+              "css:data-attr"
+            ],
+            [
+              "css=.btn-primary",
+              "css:finder"
+            ],
+            [
+              "xpath=(//a[contains(text(),'Teacher Login')])[1]",
+              "xpath:link"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div[2]/div/div/div/a)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=(//a[contains(@href, '#/teacher')])[1]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//a[contains(.,'Teacher Login')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "linkText=Grade Submissions",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "657b0b06-6922-46bb-aad6-db45f2c00838",
+          "targets": [
+            [
+              "linkText=Grade Submissions",
+              "linkText"
+            ],
+            [
+              "css=.nav-item:nth-child(2) > .nav-link",
+              "css:finder"
+            ],
+            [
+              "xpath=(//a[contains(text(),'Grade Submissions')])[1]",
+              "xpath:link"
+            ],
+            [
+              "xpath=(//div[@id='navbarNav']/ul/li[2]/a)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=(//a[contains(@href, '#/teacher/grade')])[1]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//a[contains(.,'Grade Submissions')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=homeworkSelect",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "7e625c2e-0a1e-4399-93f1-aca2ad2745b6",
+          "targets": [
+            [
+              "id=homeworkSelect",
+              "id"
+            ],
+            [
+              "css=#homeworkSelect",
+              "css:finder"
+            ],
+            [
+              "xpath=(//select[@id='homeworkSelect'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/div/div/select)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "select",
+          "target": "id=homeworkSelect",
+          "value": "label=1 (2)",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "680072b5-4d32-4e63-ad2d-aa7fef244a8c",
+          "targets": [
+            [
+              "id=homeworkSelect",
+              "id"
+            ],
+            [
+              "css=#homeworkSelect",
+              "css:finder"
+            ],
+            [
+              "xpath=(//select[@id='homeworkSelect'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/div/div/select)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=gradingCriteria",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "7d197758-4a2f-48e5-91f6-75cfdda004aa",
+          "targets": [
+            [
+              "id=gradingCriteria",
+              "id"
+            ],
+            [
+              "css=#gradingCriteria",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='gradingCriteria'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/div[2]/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=gradingCriteria",
+          "value": "test",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "472f010f-1204-408c-a8d4-df97c41f03dd",
+          "targets": [
+            [
+              "id=gradingCriteria",
+              "id"
+            ],
+            [
+              "css=#gradingCriteria",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='gradingCriteria'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/div[2]/div/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=.btn",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "8a37ef89-0711-41c1-8153-f19367b47e38",
+          "targets": [
+            [
+              "css=.btn",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/div/div[2]/div/button)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//button[contains(.,' Autograde with AI')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "assertElementPresent",
+          "target": "css=.col-md-6:nth-child(1) .card-body",
+          "value": "",
+          "id": "89026748-973c-4b38-a775-fed9b0c01db6",
+          "fallbackTargets": [
+            [
+              "css=.col-md-6:nth-child(1) .card-body",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/div[3]/div/div/div)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "assertElementPresent",
+          "target": "css=.col-md-6:nth-child(2) .card-body",
+          "value": "",
+          "id": "f3da0ddb-80b0-4804-9b7f-d4a7bad512aa",
+          "fallbackTargets": [
+            [
+              "css=.col-md-6:nth-child(2) .card-body",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='root']/div/div/div[2]/div[3]/div[2]/div/div)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "snapshot": {
+    "dependencies": {},
+    "tests": [],
+    "jest": {
+      "extraGlobals": []
+    }
+  },
+  "delay": 1500
+}
